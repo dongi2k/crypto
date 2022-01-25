@@ -17,10 +17,10 @@ const App = () => {
 
                     <div className="routes">
                         <Routes>
-                            <Route excat path="/" element={<Homepage/>}/>
-                            <Route excat path="/exchanges" element={<Exchanges/>}/>
+                            <Route excat path="/" element={<Homepage/>} />
+                            <Route excat path="/exchanges" element={<Exchanges/>} />
                             <Route excat path="/cryptocurrencies" element={<Cryptocurrencies/>}/>
-                            <Route excat path="/crypto/:coinId" element={<CryptoDetails/>}/>
+                            <Route excat path="crypto/:uuid" element={<CryptoDetails/>}/>
                             <Route excat path="/news" element={<News/>}/>
                         </Routes>
 
